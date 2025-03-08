@@ -13,4 +13,6 @@ class Solution:
 solution = Solution()
 solution.twoSum([2,15,11,7,17], 9)
 
+word = "hello"
+char_map = {}
 
