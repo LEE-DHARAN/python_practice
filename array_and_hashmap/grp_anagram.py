@@ -11,7 +11,7 @@ from collections import defaultdict
 #     for g in gro:
 #         print(g)    
 
-
+fruits = ["mango","banana","pineapple"]
 hash_map = defaultdict(list) #emptylist
 hash_map["fruits"].append("mango")
 hash_map["fruits"].append("orange")       
