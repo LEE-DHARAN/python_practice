@@ -1,10 +1,10 @@
 class solution:
-    def isanagram(self, word:str, word_2:str)->bool:
-        if len(word) != len(word_2):
+    def isanagram(self, word_1:str, word_2:str)->bool:
+        if len(word_1) != len(word_2):
             return False
 
         char_map = {}
-        for char in word:
+        for char in word_1:
             char_map[char] = char_map.get(char, 0) + 1
 
         for char in word_2:

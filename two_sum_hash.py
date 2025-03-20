@@ -8,7 +8,6 @@ class Solution:
  
         for i in range(n):
             complement = target - nums[i] 
-            print(complement)
             if complement in numMap:
                 return [numMap[complement], i]
             numMap[nums[i]] = i 

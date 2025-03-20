@@ -2,12 +2,12 @@ from typing import List
 
 
 def containsDuplicate(nums:List[int])->bool:  
-    freq = {}  
+    hash_map = {}  
 
-    for num in nums:  
-        if num in freq:  
+    for i in nums:  
+        if i in hash_map:  
             return True  
-        freq[num] = 1  
+        hash_map[i] = 1  
     
     return False  
 
